@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Procesador Archivos .txt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-file">
+        <h1 class="title">App Procesador Archivos .txt</h1>
+        <input type="file" class="file-input" id="fileInput" accept=".txt" placeholder="Clic para cargar archivo">
+        <button onclick="processFile()" class="btn-file">Crear Tabla</button>
+        <button onclick="clearTable()" class="btn-file">Limpiar tabla</button>
+        <table class="data-table" id="dataTable" class="sortable"></table>
+        <!-- <button onclick="removeTable()" class="btn-file">Eliminar Tabla</button> -->
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+/*! *********************** */
+/*! CONTENERDOR DEL ARCHIVO */
+/*! *********************** */
+.container-file {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/*! **************** */
+/*! TITULO PRINCIPAL */
+/*! **************** */
+.title {
+    text-align: center;
+}
+
+/*! ***************** */
+/*! INPUT DEL ARCHIVO */
+/*! ***************** */
+.file-input {
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/*! ******************* */
+/*! BOTON PARA PROCESAR */
+/*! ******************* */
+.btn-file {
+    padding: 5px;
+    cursor: pointer;
+    background-color: rgb(207, 8, 8);
+    color: #fff;
+    border-radius: 5px; 
+}
+
+.btn-file:hover {
+    background-color: rgb(253, 48, 48);
+    color: #fff;
+} 
+
+/*! *********** */
+/*! TABLA HTML */
+/*! ********** */
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.data-table th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}  
+
+th {
+    text-align: center;
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
